@@ -28,7 +28,6 @@ Nepomuk widget utilities and libraries.
 %package -n %{libnepomukwidgets}
 Summary:	Nepomuk widgets library
 Group:		System/Libraries
-Requires:	%{name} = %{EVRD}
 
 %description -n %{libnepomukwidgets}
 Nepomuk widgets library.
