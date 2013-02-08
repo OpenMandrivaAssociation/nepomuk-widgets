@@ -1,7 +1,7 @@
 Name:		nepomuk-widgets
 Summary:	Nepomuk widget utilities and libraries
-Version:	4.9.98
-Release:	2
+Version:	4.10.0
+Release:	1
 Epoch:		1
 Group:		Graphical desktop/KDE
 License:	GPLv2 GPLv3 LGPLv2 LGPLv3
@@ -62,6 +62,9 @@ that use Nepomuk.
 %makeinstall_std -C build
 
 %changelog
+* Thu Feb 07 2013 Andrey Bondrov <andrey.bondrov@rosalab.ru> 1:4.10.0-1
+- New version 4.10.0
+
 * Wed Dec 05 2012 Andrey Bondrov <andrey.bondrov@rosalab.ru> 1:4.9.4-1
 - New version 4.9.4
 
