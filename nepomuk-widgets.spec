@@ -1,6 +1,6 @@
 Name:		nepomuk-widgets
 Summary:	Nepomuk widget utilities and libraries
-Version:	4.10.0
+Version:	4.10.1
 Release:	1
 Epoch:		1
 Group:		Graphical desktop/KDE
@@ -22,6 +22,8 @@ BuildRequires:	nepomuk-core-devel >= 4.9.98
 %description
 Nepomuk widget utilities and libraries.
 
+#----------------------------------------------------------------------------------
+
 %define nepomukwidgets_major 4
 %define libnepomukwidgets %mklibname nepomukwidgets %{nepomukwidgets_major}
 
@@ -34,6 +36,8 @@ Nepomuk widgets library.
 
 %files -n %{libnepomukwidgets}
 %{_kde_libdir}/libnepomukwidgets.so.%{nepomukwidgets_major}*
+
+#----------------------------------------------------------------------------------
 
 %package devel
 Summary:	Development files for %{name}
@@ -62,6 +66,9 @@ that use Nepomuk.
 %makeinstall_std -C build
 
 %changelog
+* Sat Mar 09 2013 Andrey Bondrov <andrey.bondrov@rosalab.ru> 1:4.10.1-1
+- New version 4.10.1
+
 * Thu Feb 07 2013 Andrey Bondrov <andrey.bondrov@rosalab.ru> 1:4.10.0-1
 - New version 4.10.0
 
