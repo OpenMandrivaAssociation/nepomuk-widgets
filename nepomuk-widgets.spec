@@ -1,6 +1,6 @@
 Name:		nepomuk-widgets
 Summary:	Nepomuk widget utilities and libraries
-Version:	4.13.3
+Version:	4.14.3
 Release:	1
 Epoch:		1
 Group:		Graphical desktop/KDE
