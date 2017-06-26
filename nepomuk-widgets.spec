@@ -1,7 +1,7 @@
 Name:		nepomuk-widgets
 Summary:	Nepomuk widget utilities and libraries
 Version:	4.14.3
-Release:	7
+Release:	8
 Epoch:		1
 Group:		Graphical desktop/KDE
 License:	GPLv2 GPLv3 LGPLv2 LGPLv3
@@ -12,7 +12,7 @@ URL:		http://www.kde.org
 %else
 %define ftpdir stable
 %endif
-Source:		ftp://ftp.kde.org/pub/kde/%ftpdir/%{version}/src/%{name}-%{version}.tar.xz
+Source0:	ftp://ftp.kde.org/pub/kde/%ftpdir/%{version}/src/%{name}-%{version}.tar.xz
 BuildRequires:	kde4-macros
 BuildRequires:	kdelibs4-devel
 BuildRequires:	doxygen
